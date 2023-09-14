@@ -1,4 +1,6 @@
-# Sentiment Analysis with Naive Bayes Classifier
+# Sentiment Analysis 
+
+![logo](sentiment.png)
 
 This repository contains a Python script for performing sentiment analysis on text data using a Naive Bayes classifier. The code is designed to preprocess and analyze sentiment in tweets from two different datasets: SandersPosNeg and OMD.
 
