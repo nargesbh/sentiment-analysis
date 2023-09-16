@@ -16,7 +16,7 @@ Sentiment analysis, also known as opinion mining, is a natural language processi
 - The preprocessed text data is then transformed into numerical features using TF-IDF vectorization.
 - Naive Bayes, Logistic Regression and Random Forestare are trained on this dataset using 10-fold cross-validation, and the best accuracy achieved is approximately 82.9%.
 
-### 2. OMD (Your Dataset Name) Dataset
+### 2. OMD Dataset
 - This dataset contains tweets with associated sentiment labels (1 for positive, 0 for negative).
 - Similar preprocessing steps are applied to this dataset, including data cleaning, tokenization, spelling correction, stop word removal, and lemmatization.
 - The text data is transformed into TF-IDF vectors, and Naive Bayes, Logistic Regression and Random Forestare are trained using 10-fold cross-validation.
@@ -31,7 +31,6 @@ Before running the code, ensure that you have the following libraries and packag
 - string
 - re
 - nltk
-- spellchecker
 - sklearn (scikit-learn)
 
 You can install these packages using `pip`:
