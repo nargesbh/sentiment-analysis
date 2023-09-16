@@ -2,7 +2,7 @@
 
 ![logo](sentiment.gif)
 
-This repository contains a Python script for performing sentiment analysis on text data using a Naive Bayes classifier. The code is designed to preprocess and analyze sentiment in tweets from two different datasets: SandersPosNeg and OMD.
+This repository contains a Python script for performing sentiment analysis on text data using Naive Bayes, Logistic Regression and Random Forest. The code is designed to preprocess and analyze sentiment in tweets from two different datasets: SandersPosNeg and OMD.
 
 ## Overview
 
@@ -14,13 +14,13 @@ Sentiment analysis, also known as opinion mining, is a natural language processi
 - This dataset contains tweets related to a specific topic, and each tweet is labeled as either positive or negative sentiment.
 - The dataset is read from a CSV file, and the preprocessing steps include removing punctuation, converting text to lowercase, tokenization, spelling correction, stop word removal, and lemmatization.
 - The preprocessed text data is then transformed into numerical features using TF-IDF vectorization.
-- A Naive Bayes classifier is trained on this dataset using 10-fold cross-validation, and the accuracy achieved is approximately 82.9%.
+- Naive Bayes, Logistic Regression and Random Forestare are trained on this dataset using 10-fold cross-validation, and the best accuracy achieved is approximately 82.9%.
 
 ### 2. OMD (Your Dataset Name) Dataset
 - This dataset contains tweets with associated sentiment labels (1 for positive, 0 for negative).
 - Similar preprocessing steps are applied to this dataset, including data cleaning, tokenization, spelling correction, stop word removal, and lemmatization.
-- The text data is transformed into TF-IDF vectors, and a Naive Bayes classifier is trained using 10-fold cross-validation.
-- The accuracy achieved on this dataset is approximately 76.3%.
+- The text data is transformed into TF-IDF vectors, and Naive Bayes, Logistic Regression and Random Forestare are trained using 10-fold cross-validation.
+- The Best accuracy achieved on this dataset is approximately 76.3%.
 
 ## Prerequisites
 
@@ -39,28 +39,7 @@ You can install these packages using `pip`:
 pip install pandas numpy string nltk spellchecker scikit-learn
 ```
 
-## Usage
 
-1. Clone this repository to your local machine:
-
-```
-git clone https://github.com/your-username/sentiment-analysis.git
-```
-
-2. Navigate to the project directory:
-
-
-```
-
-cd sentiment-analysis
-
-```
-
-3. Run the script for sentiment analysis on your dataset:
-
-```
-python sentiment_analysis.py
-```
 
 ## Results
 
